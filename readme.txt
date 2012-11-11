@@ -33,3 +33,20 @@ Example admin:
 	http://example.com/comments.php?pass=12345
 	http://example.com/components/articles/?pass=12345
 	http://example.com/?pass=12345
+
+
+
+mySQL dump for install
+this file is out generate capcha in class.capcha.php
+this class for generate capcha
+This class is generate comments form, output comments list. Is primary class in this package
+for init registry class
+class worked with BD MySQL
+Registry class. this class is save vars and objects
+Configurate class
+Support functions for comments class
+Example
+A text-to-HTML conversion tool for web writers
+Clear html cod, delete XSS code
+Installation instruction
+CSS Style for output forms
