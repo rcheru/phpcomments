@@ -27,6 +27,9 @@ Install:
 	$comments->outComments();
 	?>
 
+4. For work Ajax comment and output WISIWIG editor. Download and exract this addition package
+http://rche.ru/exaples/commentsENG/js.zip
+
 
 For administarte comments, add in URL, GET var: pass=12345 (password setup in config.php)
 Example admin: 
@@ -35,18 +38,21 @@ Example admin:
 	http://example.com/?pass=12345
 
 
+Files description:
 
-mySQL dump for install
-this file is out generate capcha in class.capcha.php
-this class for generate capcha
-This class is generate comments form, output comments list. Is primary class in this package
-for init registry class
-class worked with BD MySQL
-Registry class. this class is save vars and objects
-Configurate class
-Support functions for comments class
-Example
-A text-to-HTML conversion tool for web writers
-Clear html cod, delete XSS code
-Installation instruction
-CSS Style for output forms
+
+/.install.sql  			mySQL dump for install
+/capcha.php 			this file is out generate capcha in class.capcha.php
+/class.captcha.php 		this class for generate capcha
+/class.comments.php 		This class is generate comments form, output comments list. Is primary class in this package
+/class.controller.php 		for init registry class
+/class.dbsql.php 		class worked with BD MySQL
+/class.registry.php 		Registry class. this class is save vars and objects
+/config.php 			Configurate class
+/functions.php 			Support functions for comments class
+/index.php 			Example
+/markdown.php 			A text-to-HTML conversion tool for web writers
+/markhtml.php 			Clear html cod, delete XSS code
+/readme.txt 			Installation instruction
+/css/rcheComment.css 		CSS Style for output forms
+/js/rcheComment.js 		JavaScript for Ajax and output WISIWIG
